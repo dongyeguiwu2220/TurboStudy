@@ -1,0 +1,101 @@
+{
+	"pages": [
+		"projects/enlesson/pages/default/index/default_index",
+		"projects/enlesson/pages/about/list/about_list",
+		"projects/enlesson/pages/about/index/about_index",
+		"projects/enlesson/pages/search/search",
+		"projects/enlesson/pages/my/index/my_index",
+		"projects/enlesson/pages/my/reg/my_reg",
+		"projects/enlesson/pages/my/edit/my_edit",
+		"projects/enlesson/pages/my/login/my_login",
+		"projects/enlesson/pages/my/pwd/my_pwd",
+		"projects/enlesson/pages/my/fav/my_fav",
+		"projects/enlesson/pages/my/foot/my_foot",
+		"projects/enlesson/pages/news/index/news_index",
+		"projects/enlesson/pages/news/detail/news_detail",
+		"projects/enlesson/pages/news/cate1/news_cate1",
+		"projects/enlesson/pages/news/cate2/news_cate2",
+		"projects/enlesson/pages/admin/news/list/admin_news_list",
+		"projects/enlesson/pages/admin/news/add/admin_news_add",
+		"projects/enlesson/pages/admin/news/edit/admin_news_edit",
+		"projects/enlesson/pages/admin/setup/about/admin_setup_about",
+		"projects/enlesson/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/enlesson/pages/admin/index/home/admin_home",
+		"projects/enlesson/pages/admin/index/login/admin_login",
+		"projects/enlesson/pages/admin/content/admin_content",
+		"projects/enlesson/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/enlesson/pages/admin/mgr/list/admin_mgr_list",
+		"projects/enlesson/pages/admin/mgr/add/admin_mgr_add",
+		"projects/enlesson/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/enlesson/pages/admin/user/list/admin_user_list",
+		"projects/enlesson/pages/admin/user/detail/admin_user_detail",
+		"projects/enlesson/pages/admin/user/export/admin_user_export",
+		"projects/enlesson/pages/enroll/index/enroll_index",
+		"projects/enlesson/pages/enroll/detail/enroll_detail",
+		"projects/enlesson/pages/enroll/join/enroll_join",
+		"projects/enlesson/pages/enroll/my_join_list/enroll_my_join_list",
+		"projects/enlesson/pages/enroll/join_list/enroll_join_list",
+		"projects/enlesson/pages/enroll/rank_list/enroll_rank_list",
+		"projects/enlesson/pages/admin/enroll/join_list/admin_enroll_join_list",
+		"projects/enlesson/pages/admin/enroll/export/admin_enroll_export",
+		"projects/enlesson/pages/admin/enroll/list/admin_enroll_list",
+		"projects/enlesson/pages/admin/enroll/add/admin_enroll_add",
+		"projects/enlesson/pages/admin/enroll/edit/admin_enroll_edit",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#2F7FFF",
+		"navigationBarTitleText": "选修选课小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#fefefe",
+		"color": "#999999",
+		"selectedColor": "#2F7FFF",
+		"list": [
+			{
+				"pagePath": "projects/enlesson/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/enlesson/images/tabbar/home.png",
+				"selectedIconPath": "/projects/enlesson/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/enlesson/pages/news/index/news_index",
+				"text": "公告",
+				"iconPath": "/projects/enlesson/images/tabbar/ticket.png",
+				"selectedIconPath": "/projects/enlesson/images/tabbar/ticket_cur.png"
+			},
+			{
+				"pagePath": "projects/enlesson/pages/enroll/rank_list/enroll_rank_list",
+				"text": "热门排行",
+				"iconPath": "/projects/enlesson/images/tabbar/news.png",
+				"selectedIconPath": "/projects/enlesson/images/tabbar/news_cur.png"
+			},
+			{
+				"pagePath": "projects/enlesson/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/enlesson/images/tabbar/my.png",
+				"selectedIconPath": "/projects/enlesson/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"requiredPrivateInfos": [
+		"chooseLocation"
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
